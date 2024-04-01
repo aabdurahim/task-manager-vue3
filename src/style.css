@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: Hazelnuts;
+  src: url('/public/fonts/TTHazelnuts-Regular.woff2');
+}
+@font-face {
+  font-family: Formular;
+  src: url('/public/fonts/Formular.woff2');
+}
+section {
+  min-height: 100vh;
+  background-image: url('/img/bg-dark.webp');
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Formular', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 32px;
+  color: #202020;
+}
+.Hazelnuts {
+  font-family: Hazelnuts;
+}
+.Formular {
+  font-family: Formular;
+}
+
+p {
+  font-family: 'Formular', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 170%;
+  color: #202020;
+}
