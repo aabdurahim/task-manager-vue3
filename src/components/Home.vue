@@ -3,7 +3,7 @@
     <div class="container mx-auto px-3 pt-[80px]">
       <h1 class="title text-[#01002e] font-medium lg:text-5xl text-center">New day - new achievement</h1>
       <h2 class="text-[#01002e] text-right mt-10 mr-10">{{ currentDate }} | {{ currentDay }} </h2>
-      <p class="text-[#01002e] text-3xl text-center cursor-pointer">Go to ⟶ <RouterLink to="/tasks">Tasks list </RouterLink></p>
+      <p class="text-[#01002e] md:text-3xl text-center cursor-pointer">Go to ⟶ <RouterLink to="/tasks">Tasks list </RouterLink></p>
     </div>
   </section>
 </template>

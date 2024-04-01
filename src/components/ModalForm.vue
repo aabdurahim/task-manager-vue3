@@ -1,7 +1,7 @@
 <template>
   <div v-if="isModalOpen" class="modal bg-black bg-opacity-50">
     <img @click="closeModal" src="/icons/close.svg" class="absolute cursor-pointer top-[15%] right-[10%] w-[25px] h-[25px] float-right mr-5" alt="">
-    <div class="container mx-auto w-3/5 px-3 py-10 bg-white rounded-[20px]">
+    <div class="container mx-auto md:w-3/5 px-3 py-10 bg-white rounded-[20px]">
       <form @submit.prevent="createOrUpdateTask" class="w-1/2 mx-auto justify-center items-center flex flex-wrap mt-5">
         <h2 class="text-center text-3xl font-medium">{{ taskToUpdate ? 'Edit current task' : 'Add new task' }}</h2> 
         <input v-model="taskTitle" type="text" placeholder="Заголовок" class="border border-b-[#01002e] p-3 mt-10 w-full">
