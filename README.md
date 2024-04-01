@@ -1,6 +1,6 @@
 # Demo
 
-https://app.netlify.com/sites/task-manager-vue3/overview
+https://app.netlify.com/sites/task-manager-vue3
 
 
 # Vue 3 + Vite
